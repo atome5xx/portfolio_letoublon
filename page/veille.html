@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/styleveille.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Veille</title>
+</head>
+<body>
+    <a href="homepage.html" class="btnn">Retour</a>
+    <h1 class="text-center underline mt-28 text-3xl font-bold">L’usage peu connu de l’ia dans les jeux vidéo :</h1>
+    <div class="courgette">
+        <h2 class="text-2xl underline mb-8">Sommaire :</h2>
+        <p class="text-gray-500 text-sm mb-8">cliquez pour accéder directement à la partie souhaité!</p>
+        <ul class="ml-16">
+            <li class="mb-6"><a href="#intro" class="som">-Introduction</a></li>
+            <li class="mb-6"><a href="#graphisme" class="som">-Améliorer les graphismes</a></li>
+            <li class="mb-6"><a href="#generation" class="som">-La génération procédurale</a></li>
+            <li class="mb-6"><a href="#cheat" class="som">-L’anti-cheat</a></li>
+            <li><a href="#outil" class="som">-Outils utilisés</a></li>
+        </ul>
+    </div><!-- sommaire -->
+    <h1 class="text-center underline mb-20 text-3xl font-bold" id="intro">Introduction</h1>
+    <div class="courgette1">
+        <div class="grid md:grid-cols-2 mb-16">
+            <div class="text-center text-lg flex items-center mr-12">
+            <p class="">On considère que le premier jeu vidéo de l’histoire était « Tennis for two » sorti en 1958. Ce jeu, composé d’un oscilloscope pour tout écran, permet à deux personnes de se renvoyer un point de lumière. Nous sommes bien loin de nos standards actuels tel que « Overwatch » et son jeu rapide avec des explosions et sa quantité de personnages disponibles.
+            <a href="https://www.landesmuseum.ch/landesmuseum/ausstellungen/wechselausstellungen/2020/games/medien/l-histoire-des-jeux-video-fr.pdf" class="src">(Source utilisé)</a></p>
+            </div>
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Tennis_for_Two_Machine_at_CAX_2010.jpg" alt="" class="img2">
+                <p class="text-center text-lg">(premier jeu vidéo, Tennis for two)</p>
+            </div>
+        </div>
+        <p class="mb-8 text-center text-lg">Ce qu’on peut considérer comme de l’intelligence artificielle dans le jeu vidéo va lentement venir dans les programmes. Un exemple bien connu est « Pac-man » sorti en 1980. L’IA des fantômes qui nous poursuivent étaient, à l’époque, considéré comme folle. L’algorithme n’était pas bien complexe. Les fantômes se déplacent en allant vers notre pac-man de droite à gauche et de haut en bas selon un degré de priorité imposé par les murs. <a href="http://users.polytech.unice.fr/~buffa/cours/java/MiniProjets_1998_1999/ESSI98_99/ginieys-benaamazouz-pacman/pacman/index.html" class="src">(Source utilisé)</a></p>
+        <p class="mb-8 text-center text-lg">La première fois cependant où l’IA a vraiment impressionné était en 1999. IBM développe deep blue qui va réussir l’exploit de vaincre le champion d’échec en titre : Gary Kasparov. C’est victoire de l’ordinateur va montrer au monde le potentiel de l’IA et changer la manière de jouer aux échecs.</p>
+        <p class="text-center text-lg">Cependant, l’IA ne se résume pas seulement aux personnages non-joueurs et est utilisé pour d’autres applications. </p>
+    </div><!--introduction -->
+    <h1 class="text-center underline mb-20 text-3xl font-bold" id="graphisme">Améliorer les graphismes</h1>
+    <div class="courgette1">
+        <div class="flex flex-col items-center">
+            <p class="text-center text-lg mb-12">
+            Aujourd’hui, l’IA a plusieurs utilités dans le monde des jeux vidéo. Une assez peu connue est l’amélioration des graphismes. La société Epic Game a sorti en avril 2022 : Unreal Engine 5 (c’est un moteur de jeu vidéo, c’est-à-dire qu’il permet de créer un jeu vidéo). Capable de fournir des graphismes de hautes qualités (regardez plutôt) <a href="https://docs.unrealengine.com/5.0/en-US/ai-components-in-unreal-engine/" class="src">(Source utilisé)</a>
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/75GLY3v1U4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p class="text-center text-lg mb-12 mt-12">Mais pour le faire tourner. On peut penser qu’il va falloir une carte graphique à plus de 5000 euros. Non, car c’est là qu’intervient l’IA.</p>
+        <div class="grid md:grid-cols-2 mb-16">
+            <div class="text-center text-lg flex items-center mr-12">
+                <p class="text-center text-lg">Elle va permettre de faire de « l’upscaling », rendre les jeux plus beaux qu’ils ne le sont. Les algorithmes d'intelligence artificielle permettent à une texture existante d'être utilisée comme base pour générer des versions plus complexes ou des variantes de cette texture qui donne une plus grande variété visuelle à l'apparence du jeu avec peu d'effort et sans perdre son style visuel d'origine. Le résultat est une meilleure version du jeu original. On peut s’en servir sur les anciens jeux comme sur « Zelda » ou « Mario ».
+                <a href="https://itigic.com/fr/artificial-intelligence-to-improve-old-games/" class="src">(Source utilisé)</a></p>
+            </div>
+            <div>
+                <img src="https://hardzone.es/app/uploads-hardzone.es/2021/01/Texturas-Mejoradas-Zelda64.jpg" alt="" class="img2">
+                <img src="https://hardzone.es/app/uploads-hardzone.es/2021/01/Texturas-Normales-Zelda64.jpg" alt="" class="img2">
+                <p class="text-center text-lg">(exemple d'application de l'ia sur Zelda : Ocarina of time (1998))</p>
+            </div>
+        </div>
+        <p class="text-center text-lg mb-12">
+            L’IA intervient également sur le dernier « Call of Duty » pour augmenter son nombre d’images par seconde sans avoir de latence par exemple. L'entreprise Nvidia a développé une technologie qu’elle déploie dans ses cartes graphiques, le DLSS (Deep Learning Super Sampling). Cette technologie repose sur un matériel spécial, les tensor cores, que l’on ne trouve que sur les cartes graphiques RTX. Plus précisément, les séries 2000 et 3000 (et bientôt 4000 !). Elle se base sur le deep learning pour générer des images additionnelles de hautes qualités.
+        </p>
+        <p class="text-center text-lg mb-12">
+            Pour réussir cet exploit, le DLSS fait appel à des super calculateurs pour entrainer continuellement son IA (c’est pour cela que nous concidérons être dans du deep learning). Les mises à jour se font ensuite automatiquement sur notre ordinateur. <a href="https://developer.nvidia.com/deep-learning" class="src">(Source utilisé)</a>
+        </p>
+        <p class="text-center text-lg mb-12">
+            Le principal avantage de l’utilisation de cette nouvelle technologie est d’obtenir plus de FPS dans les jeux. Les performances supplémentaires que vous pourriez obtenir dépendent de la résolution native, du GPU, du jeu et de la qualité du DLSS. Habituellement, les utilisateurs ont la possibilité de choisir parmi différents modes tels que Qualité, Équilibré, et Performance. Cependant un des désavantages est qu’il n’y a pas encore tous les jeux disponibles avec cette technologie. <a href="https://www.nvidia.com/fr-fr/geforce/technologies/dlss/" class="src">(Source utilisé)</a>
+        </p>
+    </div><!-- graphisme -->
+    <h1 class="text-center underline mb-20 text-3xl font-bold" id="generation">La génération procédurale</h1>
+    <div class="courgette1">
+        <p class="mb-8 text-center text-lg">
+            Certains jeux ont l’air d’avoir une carte si grande qu’elle semble infinie. L’exemple le plus connu est bien sur minecraft avec plus de 200 millions de téléchargements. Le joueur va pouvoir créer autant de carte qu’il veut et chaque carte va mesurer environ 3.6 milliards de kilomètre carré (en convertissant les distances en jeu dans notre monde). Mais comment réussir à générer en boucle de tels univers ? C’est là que l’IA intervient avec la génération procédurale.
+        </p>
+        <p class="mb-8 text-center text-lg">
+            La génération d’arbre, de montagne, de monstres… Tout s’appuie sur des formules mathématiques, de nombres aléatoires et de formules définit par les développeurs. Cette génération permet de gagner un immense temps de ressources et de développement. De nombreux jeux ne s’en servent pas forcément pour leur carte mais pour affecter des caractéristiques (Diablo en 1996) ou pour créer des niveaux (Candy Crush 2022).
+        </p>
+        <div class="grid md:grid-cols-2 mb-16">
+            <div class="text-center text-lg flex items-center mr-12">
+                <p class="">Le gros défi de ces mondes est qu’ils doivent faire vrais. La nature n’aime pas les lignes droites et pour créer une expérience plus immersive, on doit pouvoir croire en notre monde et avoir une certaine forme de chaos. Même minecraft un jeu plutôt carré applique ce concept. Pour générer les meilleurs nombres aléatoires, rien de tel que d’utiliser la suite de Fibonacci.  En additionnant les 2 premiers termes et le résultat avec le terme précédent, on obtient une suite de nombre pouvant sembler aléatoire mais qui suit une règle mathématique. Il nous suffira alors de changer les 2 premiers termes pour avoir une nouvelle séquence.
+                <a href="https://www.numerama.com/sciences/133517-la-generation-procedurale-ou-comment-le-jeu-video-devient-infini.html" class="src">(Source utilisé)</a></p>
+            </div>
+            <div class="flex flex-col justify-center">
+                <img src="https://www.downloadsource.fr/uploaded/News%20January%202015/00juanmartin/minecraft%20textures/img_552328d865808.jpg" alt="" class="img2">
+                <p class="text-center text-lg">(exemple de paysage sur minecraft)</p>
+            </div>
+        </div>
+        <p class="mb-8 text-center text-lg">
+            Pour éviter que notre fichier fasse cependant plusieurs giga-octets, notre monde va générer qu’une partie de la carte et au fur et à mesure que le joueur va progresser, du contenu va être de nouveau générer et garder en mémoire.
+        </p>
+        <p class="mb-8 text-center text-lg">
+            Plus que des cartes ou des objets, la génération procédurale permet également à une IA de créer un jeu vidéo complet. Le jeu « Candy Shop Slaughter », du scénario en passant par les graphismes, tout a été conçu par une IA. Le jeu étant sorti en milieu 2021, cette méthode en n’est encore qu’à ses débuts. Une grande part des joueurs trouvaient que le scénario était pauvre et pas assez immersif. Cependant les développeurs espèrent qu’à l’avenir, tout le monde pourra créer ses propres jeux vidéo en rentrant certains paramètres, voir même en de pouvoir mettre à jour nos jeux déjà existants en rajoutant du contenu ou en modifiant certaines règles. <a href="https://www.ouest-france.fr/high-tech/un-jeu-video-vient-d-etre-totalement-cree-par-une-intelligence-artificielle-7322923" class="src">(Source utilisé)</a>
+        </p>
+    </div><!--génération-->
+    <h1 class="text-center underline mb-20 text-3xl font-bold" id="cheat">L’anti-cheat</h1>
+    <div class="courgette1">
+        <p>
+            Bien que certains jeux, comme le récent "age of empire 4", acceptent la triche en implémentant des cheat-code dans le mode solo, rien de plus frustrant que de jouer contre quelqu’un qui a un avantage sur vous. Les raisons de la triche sont diverses, être plus fort que son vrai niveau, automatiser des actions ou encore être le meilleur. Cela permet au joueur de pouvoir gagner en notoriété et en argent, en effet certains joueurs gagnent de grosses sommes et sont même dans le Guinness book des records grâce à leur performance. C’est pourquoi les joueurs et les développeurs mettent au point diverses techniques pour débusquer les tricheurs afin que les bons joueurs ne soient pas des imposteurs. Nous allons pouvoir séparer les jeux en deux catégories : les jeux solos ou en ligne.
+        </p>
+    </div><!-- introanticheat-->
+    <h2 class="text-center underline mb-20 text-2xl font-bold">Jeux solos</h2>
+    <div class="courgette1">
+        <p class="text-center text-lg mb-8">
+            Comme je l’ai dit, les développeurs peuvent implémenter un système de triche pour les joueurs voulant se débloquer ou même moins se prendre la tête dans les jeux solos. En effet, ceux-ci jouent contre l’ordinateur (ou contre eux-mêmes). Le problème survient notamment avec les speedruns (le principe est de finir le jeu le plus vite possible). Comme de grosses sommes sont à la clé, les joueurs développent de multiples techniques pour contrer les tricheurs.
+        </p>
+        <p class="text-center text-lg mb-8">
+            Sur les jeux anciens, une simple photo était suffisante comme preuve pour le record, même si aujourd’hui on pourrait facilement voir le trucage s’il a eu lieu, beaucoup de ces photos ont été perdues. Diverses techniques ont été alors mises en place pour trouver un compromis.
+        </p>
+        <div class="grid md:grid-cols-2 mb-16">
+            <div class="text-center text-lg flex items-center mr-12">
+                <p class="">Sur le jeu Dragster sortie en 1980, le record du monde était encore plus haut que ce que les IA, réalisant pourtant des mouvements parfaits, faisaient. Pour prouver la triche, un ingénieur a créé une IA pour analyser les signaux électriques de la cartouche pour prouver que son score est impossible que ce soit physiquement, électriquement ou quantiquement.
+                <a href="https://www.youtube.com/watch?v=qfXwSYzEjcE&ab_channel=element14presents" class="src">(Source utilisé)</a></p>
+            </div>
+            <div class="flex flex-col justify-center">
+                <img src="https://community.element14.com/resized-image/__size/1200x900/__key/communityserver-wikis-components-files/00-00-00-01-91/5618.contentimage_5F00_89080.jpg" alt="" class="img2">
+                <p class="text-center text-lg">(analyse des signaux électriques)</p>
+            </div>
+        </div>
+        <p class="text-center text-lg mb-8">
+            Une technique des tricheurs est de coller ensemble des bouts de la partie pour faire croire qu’il a réussi (On appelle cela le « splicing »). L’avantage des speedruns récents c’est que la performance doit être filmée pour être validée. L’analyse minutieuse de la vidéo est alors faite pour valider ou non le record. Bien que parfois il est facile à un utilisateur lambda de vérifier, il est parfois nécessaire de se servir d’IA : pour analyser les frames d’un logo qui s’affiche dans certains cas, les bruits de fond électrique d’un audio…
+        </p>
+        <div class="grid md:grid-cols-2 mb-16">
+            <div class="text-center text-lg flex items-center mr-12">
+                <p class="">Le tricheur peut aussi modifier le code même du jeu car bien souvent l’aléatoire est décisif dans les jeux. Si la modification est mal réalisé on s’en rend facilement compte. Un graphisme qui change, une animation qui ne se déclenche pas… Mais parfois la différence est plus subtile. Souvenez-vous de minecraft et de la génération procédurale. Normalement pour réaliser le record, il faut arriver à tuer par essai en moyenne : 12 monstres spécifiques pour obtenir 6 bâtons et échanger 272 fois avec d’autres monstres spécifiques pour obtenir des perles. Une IA a alors comparé l’ensemble des parties du recordman pour en faire une analyse statistique et a détecté une anomalie. La personne a alors perdu tous ses records. L’IA créée par les joueurs analyse également d’autres facteurs, le contenu des coffres ou l’apparitions des structures…  
+                <a href="https://www.youtube.com/watch?v=F_e7a3rP0Pk&ab_channel=Trash" class="src">(Source utilisé)</a></p>
+            </div>
+            <div class="flex flex-col justify-center">
+                <img src="../image/veille/cheatmc.png" alt="" class="img2">
+                <p class="text-center text-lg">(Courbe des probabilités)</p>
+            </div>
+        </div>
+    </div><!--jeu solo -->
+    <h2 class="text-center underline mb-20 text-2xl font-bold">Jeux en ligne</h2>
+    <div class="courgette1">
+        <p class="text-center text-lg mb-8">
+            Le jeu en ligne suit d’autres règles. Comme le joueur joue avec ou contre d’autres joueurs, tous doivent être sur un pied d’égalité et suivre les règles fixées par le jeu. Les développeurs ne vont que très peu communiquer sur leur système de vérification, de protection et de bannissement pour éviter que les personnes mal intentionnées ne se servent des informations communiquées mais chaque structure agit comme elle l’entend.
+        </p>
+        <p class="text-center text-lg mb-8">
+            Pour FIFA23, le système EA anti-cheat est obligatoire pour chaque joueur jouant en ligne, il empêchera les fichiers et logiciels externes d’être injectés dans le jeu. La licence espère ainsi ne plus voir des joueurs qui doivent simplement appuyer sur une touche pour marquer un but de n’importe où sur le terrain. <a href="https://www.dexerto.fr/fifa/comment-fonctionne-anti-cheat-fifa-23-1490197/" class="src">(Source utilisé)</a>
+        </p>
+        <p class="text-center text-lg mb-8">
+            Riot Game, la société du jeu League of Legend, utilise une méthode plus approfondie. Ils ont créé une page d’accueil complexe pour que ceux voulant modifier le code du jeu prennent beaucoup de temps pour le décrypter. Ensuite quand on lance une partie, le client s’efface pour laisser place à la fenêtre du jeu mais ceux-ci communiquent pendant la partie. Une IA a été conçu pour vérifier quelles informations circulent et pour analyser les fichiers du jeu installé. 
+        </p>
+        <div class="grid md:grid-cols-2 mb-16">
+            <div class="text-center text-lg flex items-center mr-12">
+                <p class="">En plus de cela, une IA analyse les parties et vérifie si les joueurs font des actions d’humain. Elle analyse leur déplacement, leurs réactions… sur une multitude de parties puis tire ses conclusions. 
+                <a href="https://www.leagueoflegends.com/" class="src">(Source utilisé)</a></p>
+            </div>
+            <div class="flex flex-col justify-center">
+                <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt99f07ba1a207deb5/5eb569e897e9d47c8f6675c0/02_Games_Played_with_Cheaters-fre.jpg" alt="" class="img2">
+                <p class="text-center text-lg">(évolution de la triche sur League Of Legend)</p>
+            </div>
+        </div>
+        <p class="text-center text-lg mb-8">
+            On remarque que le nombre de tricheur diminue drastiquement au fil des années. Le responsable de l’équipe anti-cheat de Riot était fier de son IA qui était capable de détecter de mieux en mieux la triche si bien qu’il lui faut moins de 10 parties pour sanctionner le compte faisant usage de triche.
+        </p>
+        <p class="text-center text-lg">
+            Un problème de jeu comme League of Legend ou Dofus est l’utilisation de bot. Des personnages contrôlés par un ordinateur. Il faut alors réussir à faire la différence entre eux et un joueur humain. C’est avec ce genre de problème qu’on voit la limite actuelle de l’IA. Il nous est souvent très simple de différencier les 2 cas en seulement 5min de visionnage de gameplay alors qu'une IA aura beaucoup plus de mal. Pour les combattre Riot a tout d’abord mis en place une page d’accueil complexe qui limite le nombre de bot amateur. Puis au fil du temps, leur IA et leur système de niveau arrive à les détecter. Chose amusante, au lieu de les bannir, Riot les fait jouer entre eux pour des parties plus longues afin que les utilisateurs de bot perdent un maximum de temps et de ressources. 
+        </p>
+    </div><!--jeu multi-->
+    <h1 class="text-center underline mb-20 text-3xl font-bold" id="outil">Outils utilisés</h1>
+    <div class="courgette1">
+        <div class="mb-4">
+            <p>-La chaine Youtube (ainsi que les autres réseaux sociaux associés) Trash</p>
+            <a href="https://www.youtube.com/@trash" class="src">(Lien vers la chaine)</a>
+        </div>
+        <p class="mb-4">-Google alert avec comme mot clé: "ia" et "video game"</p>
+        <div class="mb-4">
+            <p>-Le média numérama</p>
+            <a href="https://www.numerama.com/" class="src">(Lien vers le site)</a>
+        </div>
+        <div>
+            <h3 class="underline my-8 font-bold text-lg">Autres sources utilisé</h3>
+            <p>Autre site de Riot Game, éditeur du jeu League of Legend parlant de triche.</p>
+            <a href="https://www.riotgames.com/" class="src">Lien</a>
+            <p class="mt-8">Vidéo Youtube sur l'usage de l'ia dans le jeu vidéo</p>
+            <a href="https://www.youtube.com/watch?v=Pl4i90lRTXE&ab_channel=TrashBandicoot" class="src">Lien</a>
+        </div>
+    </div><!-- outil -->
+</body>
+</html>

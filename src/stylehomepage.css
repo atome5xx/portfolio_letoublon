@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100;200;300;400;500;600;700;800;900&family=Syne+Tactile&family=Texturina:ital,opsz,wght@0,12..72,100;0,12..72,200;0,12..72,300;0,12..72,400;0,12..72,500;1,12..72,100&display=swap');
+
+html{scroll-behavior:smooth};
+container{
+  padding: 3%;
+}
+body{
+  font-family: lexend mega;
+  color: #2B73B3;
+}
+/*header */
+.head{
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+  padding: 4rem;
+  padding-bottom: 1rem;
+  height: 75%;
+}
+.head1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+.head2{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: white;
+  border-radius: 0.75rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-decoration: none;
+}
+.head3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  grid-column: span 2 / span 2;
+  margin-top: 2rem;
+}
+.contact{
+  border: 4px solid #2B73B3;
+  color: #2B73B3;
+}
+.contact:hover{
+  transform: scale(1.1);
+}
+.moi{
+  border: 2px solid #2B73B3;
+}
+.photo{
+  transform: translateX(30%);
+}
+.imgp{
+  width: 22vw;
+  height: 22vw;
+  border-radius: 50%;
+  background-image:url('https://zupimages.net/up/22/37/z4gt.jpg');
+  background-size: cover;
+   border: 4px solid #2B73B3;
+}
+header{
+  background-image:url('https://zupimages.net/up/22/38/nb89.gif');
+   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: lexend mega;
+}
+header p:hover em{
+  display: flex;
+}
+/* Navigation */
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+.bt{
+  border: 0px;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #2B73B3;
+}
+.bt:hover{
+  padding: 16px;
+  padding-right: 20px;
+}
+nav{
+  background-color: #2B73B3;
+  padding-top: 2%;
+  padding-bottom:2%;
+}
+
+/* à propos */
+.exp{
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+}
+.imgexp{
+  width: 11vw;
+}
+.winner{
+  margin-left: 60%;
+}
+
+/* compétences */
+.compp img{
+  width: 10vw;
+  height: 10vw;
+  margin-bottom: 2em;
+}
+.compp h2{
+  text-align: center;
+  margin-bottom: 3em;
+  font-size: 1.125rem; 
+  line-height: 1.75rem; 
+}
+.compp div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* projet 1ere année */
+
+.container1 {
+  top: 60px;
+  /*left: calc(50% - 300px);*/
+  display: flex;
+  margin-left: 10%;
+}
+
+.card {
+  display: flex;
+  height: 33vw;
+  width: 22vw;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: -1rem 0 2rem #2B73B3;
+/*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+
+.card:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.title {
+  color: #2B73B3;
+  font-weight: 300;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.bar {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  height: 5px;
+  width: 150px;
+}
+
+.emptybar {
+  background-color: #2B73B3;
+  width: 100%;
+  height: 100%;
+}
+
+.filledbar {
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  width: 0px;
+  height: 100%;
+  background: rgb(0,154,217);
+  background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+  transition: 0.6s ease-out;
+}
+
+.card:hover .filledbar {
+  width: 120px;
+  transition: 0.4s ease-out;
+}
+
+.circle {
+  position: absolute;
+  top: 32%;
+  left: 10%;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card:hover .stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+}
+.imgpp{
+  width: 18vw;
+  height: 10vw;
+}
+.contact1{
+  border: 4px solid #2B73B3;
+  color: #2B73B3;
+}
+.contact1:hover{
+  background-color: #2B73B3;
+  color: white;
+}
+.infos{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+/* footer */
+footer{
+  color: white;
+  background-color: #2B73B3;
+  height: 400px;
+}
+
+footer img{
+  border: 5px solid #7b8389;
+  width: 15vw;
+  height: 15vw;
+}
+footer img:hover{
+  border: 5px solid white;
+}
+
+@media (max-width : 768px){
+  /*header */
+  .photo{
+    transform: translateX(10%);
+  }
+  .imgp{
+    width: 45vw;
+    height: 45vw;
+    margin-bottom : 1rem;
+  }
+  .head{
+    gap: 0px;
+    grid-template-columns: none;
+  }
+  .head2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  /*nav*/
+  .bt{
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+  }
+  .bt:hover{
+  padding: 0px;
+  padding-right: 0px;
+  }
+  /* à propos*/
+  .imgexp{
+  width: 30vw;
+  }
+  /* compétence */
+  .compp h2{
+  font-size: 0.875rem; 
+  line-height: 1.25rem; 
+  }
+  .compp img{
+  width: 20vw;
+  height: 20vw;
+  }
+  /* projets 1ere année */
+  .container1 {
+  top: 60px;
+  /*left: calc(50% - 300px);*/
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  }
+  .card {
+  height: 90vw;
+  width: 85%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: -1rem 0 2rem #2B73B3;
+/*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+  }
+  .card:not(:first-child) {
+    margin-left: 0px;
+  }
+  .imgpp{
+  width: 33vw;
+  height: 25vw;
+}
+.contact1{
+  border: 4px solid #2B73B3;
+  color: #2B73B3;
+}
+.contact1:hover{
+  background-color: #2B73B3;
+  color: white;
+}
+.infos{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+  .circle {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  footer img{
+    width: 20vw;
+    height: 20vw;
+    margin-left: 20px;
+  }
+  footer p{
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  footer{
+    align-items: center;
+  }
+}
