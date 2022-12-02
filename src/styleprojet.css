@@ -45,3 +45,16 @@ body{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+@media (max-width : 400px){
+  body{
+    text-align: justify;
+  }
+  p{
+    font-size: 0.875rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  h2{
+    font-size: 1rem;
+  }
+}
