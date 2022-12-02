@@ -49,3 +49,14 @@ body{
     border-bottom: 1px solid;
   }
 }
+@media (max-width : 400px){
+  body{
+    text-align: justify;
+  }
+  p{
+    font-size: 0.875rem;
+  }
+  .media{
+    text-align: center;
+  }
+}
