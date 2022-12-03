@@ -59,4 +59,17 @@ body{
   .media{
     text-align: center;
   }
+  .som{
+    font-size: 0.875rem;
+    border: 0px solid ;
+  }
+  li{
+    text-align: center;
+    border: 1px solid ;
+    border-radius: 10%;
+  }
+  iframe{
+    width: 95%;
+    height: 95%;
+  }
 }
