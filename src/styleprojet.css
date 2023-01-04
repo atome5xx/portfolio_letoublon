@@ -32,6 +32,9 @@ body{
   background-color: #2B73B3;
   color: #F3E7E7;
 }
+em{
+  font-weight: bold;
+}
 @media (max-width : 768px){
   .courgette1{
     border-bottom: 1px solid ;
